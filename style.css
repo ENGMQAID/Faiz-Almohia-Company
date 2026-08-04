@@ -206,3 +206,18 @@ nav a:hover {
     font-size: 14px;
     color: #ccc;
 }
+
+.owner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+
+.owner-photo img {
+    width: 260px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
