@@ -148,3 +148,61 @@ nav a:hover {
 .brand-forever52 .hero h1 { color: #ff0000; }
 .brand-character .hero h1 { color: #e0c27b; }
 .brand-anesthesia .hero h1 { color: #7fd1ff; }
+
+.login-page {
+    background: url('assets/login-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+.login-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #d4af37;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+.login-note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
