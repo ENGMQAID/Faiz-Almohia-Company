@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    color: white;
+    font-family: 'Tahoma', Arial, sans-serif;
+    color: #ffffff;
     text-align: center;
+    background: #000000;
 }
 
 .video-bg {
@@ -24,57 +25,126 @@ video {
 nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    background: rgba(0,0,0,0.6);
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ffcc00;
+    color: #d4af37;
 }
 
 .hero {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .hero h1 {
-    font-size: 60px;
-    text-shadow: 0 0 20px black;
+    font-size: 48px;
+    text-shadow: 0 0 20px #000;
 }
 
 .hero p {
-    font-size: 24px;
-    text-shadow: 0 0 10px black;
+    font-size: 20px;
+    text-shadow: 0 0 10px #000;
+}
+
+.brand-logo {
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 .content {
-    background: rgba(0,0,0,0.6);
-    margin: 50px auto;
-    padding: 40px;
-    width: 80%;
+    background: rgba(0,0,0,0.7);
+    margin: 40px auto;
+    padding: 30px;
+    width: 85%;
     border-radius: 15px;
-    text-align: left;
+    text-align: right;
 }
 
 .content h2 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #ffcc00;
+    color: #d4af37;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #f0d060;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8;
 }
 
 .content ul {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2;
+    list-style: disc;
+    padding-right: 25px;
 }
+
+.brands-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 60px auto;
+    width: 90%;
+}
+
+.brand-card {
+    background: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.brand-card img {
+    max-width: 140px;
+    margin-bottom: 15px;
+}
+
+.brand-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #d4af37;
+}
+
+.brand-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #d4af37;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffffff;
+}
+
+/* ألوان خاصة لكل علامة لو حبيت تعدل لاحقاً */
+.brand-forever52 .hero h1 { color: #ff0000; }
+.brand-character .hero h1 { color: #e0c27b; }
+.brand-anesthesia .hero h1 { color: #7fd1ff; }
