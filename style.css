@@ -221,3 +221,73 @@ nav a:hover {
     margin-bottom: 25px;
     box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
+
+/* خلفية حديثة فاخرة */
+.modern-bg {
+    background: url('assets/bg-modern.jpg') center/cover no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* عنوان فخم */
+.owner-hero {
+    text-align: center;
+    padding: 120px 20px 40px;
+    color: #d4af37;
+}
+
+.owner-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.owner-hero p {
+    font-size: 22px;
+    color: #fff;
+}
+
+/* صندوق حديث */
+.owner-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto 80px;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+/* مكان الصورة */
+.owner-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.photo-placeholder {
+    width: 260px;
+    height: 260px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d4af37;
+    font-size: 20px;
+    border: 2px solid #d4af37;
+}
